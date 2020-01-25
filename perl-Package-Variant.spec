@@ -4,7 +4,6 @@
 #
 %define		pdir	Package
 %define		pnam	Variant
-%include	/usr/lib/rpm/macros.perl
 Summary:	Package::Variant - Parameterizable packages
 #Summary(pl.UTF-8):	
 Name:		perl-Package-Variant
