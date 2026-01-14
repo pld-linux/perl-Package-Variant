@@ -8,7 +8,7 @@ Summary:	Package::Variant - Parameterizable packages
 #Summary(pl.UTF-8):	
 Name:		perl-Package-Variant
 Version:	1.002000
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
