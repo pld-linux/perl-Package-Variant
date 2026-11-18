@@ -7,20 +7,20 @@
 Summary:	Package::Variant - Parameterizable packages
 #Summary(pl.UTF-8):	
 Name:		perl-Package-Variant
-Version:	1.002000
-Release:	2
+Version:	1.003002
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/Package/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	fc0b756835c26d6d6dca711021fb94c0
+Source0:	https://www.cpan.org/authors/id/M/MS/MSTROUT/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	f898ec7426e051ca4431fd8afed24937
 URL:		http://search.cpan.org/dist/Package-Variant/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Import-Into >= 1
 BuildRequires:	perl-Module-Runtime >= 0.013
-BuildRequires:	perl-strictures >= 1
+BuildRequires:	perl-strictures >= 2
 BuildRequires:	perl-Test-Fatal
 %endif
 BuildArch:	noarch
